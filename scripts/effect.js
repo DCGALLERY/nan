@@ -327,6 +327,11 @@ const animationTimeline = () => {
   replyBtn.addEventListener("click", () => {
     tl.restart();
   });
+
+  const replyBtn2 = document.getElementById("replay2");
+  replyBtn2.addEventListener("click", () => {
+    tl.restart();
+  });
 };
 
 // Import the data to customize and insert them into page
